@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jishan Akhatar – Aspiring Software Development Engineer. Portfolio showcasing skills, projects, and resume.">
+  <title>Jishan Akhatar · SDE Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts (clean, modern) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Sticky Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Home">Jishan<span class="logo-dot">.</span></a>
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-name">Jishan Akhatar</h1>
+          <p class="hero-role">Aspiring Software Development Engineer</p>
+          <p class="hero-desc">
+            B.Tech CSE student passionate about full‑stack development, 
+            problem solving, and building practical web applications.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="Jishan Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+            <a href="https://github.com/sheikhjishan" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="Sheikh Jishan (2).png" alt="Jishan Akhatar profile photo" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a Computer Science & Engineering student at Malout Institute of Management and Information Technology (MIMIT), Punjab. 
+              I have a strong foundation in Data Structures, RDBMS, and C programming, and I enjoy building full‑stack web applications.
+            </p>
+            <p>
+              My interests lie in software development, clean UI design, and solving real‑world problems through code. 
+              I'm constantly learning and improving my skills in modern web technologies.
+            </p>
+            <div class="about-details">
+              <div class="detail-item">
+                <span class="detail-label">Education</span>
+                <span class="detail-value">B.Tech CSE, MIMIT (2023–2027)</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Location</span>
+                <span class="detail-value">Malout, Punjab, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="stats-cards">
+            <div class="stat-card">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Projects built</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">5</span>
+              <span class="stat-label">Tech categories</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">2027</span>
+              <span class="stat-label">Graduation year</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <ul>
+              <li>C</li>
+              <li>C++</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <!-- Frontend -->
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>React.js</li>
+              <li>Bootstrap</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <!-- Backend -->
+          <div class="skill-card">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+            </ul>
+          </div>
+          <!-- Database / CS -->
+          <div class="skill-card">
+            <h3>CS Fundamentals</h3>
+            <ul>
+              <li>Data Structures</li>
+              <li>RDBMS</li>
+              <li>C Programming</li>
+            </ul>
+          </div>
+          <!-- Tools -->
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>Student Task & Study Planner</h3>
+            <p class="project-tech">React.js, JavaScript, HTML, CSS</p>
+            <p class="project-desc">
+              A web app to manage daily tasks and study schedules with task creation, deadlines, priorities, and progress tracking. 
+              Includes dark/light mode and responsive UI.
+            </p>
+            <a href="https://github.com/sheikhjishan/study-task-planner" target="_blank" rel="noopener" class="btn btn-small">GitHub</a>
+          </article>
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>Expense Tracker Web App</h3>
+            <p class="project-tech">React.js, JavaScript, CSS</p>
+            <p class="project-desc">
+              Record and manage daily expenses with category-wise organization, monthly summaries, and browser storage for persistence.
+            </p>
+            <a href="https://github.com/sheikhjishan/expense-tracker" target="_blank" rel="noopener" class="btn btn-small">GitHub</a>
+          </article>
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>Personal Portfolio Website</h3>
+            <p class="project-tech">HTML, CSS, JavaScript, React.js</p>
+            <p class="project-desc">
+              A responsive portfolio to showcase skills, projects, and contact info with modern UI components and mobile-friendly layout.
+            </p>
+            <a href="https://github.com/sheikhjishan/portfolio-website" target="_blank" rel="noopener" class="btn btn-small">GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section section-alt">
+      <div class="container resume-container">
+        <h2 class="section-title">Resume</h2>
+        <p class="resume-text">
+          You can download my resume for a detailed overview of my education, skills, and projects.
+        </p>
+        <a href="resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-grid">
+          <a href="mailto:jishanakhtar@gmail.com" class="contact-card">
+            <span class="contact-icon">✉️</span>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">jishanakhtar@gmail.com</span>
+          </a>
+          <a href="tel:+919508143590" class="contact-card">
+            <span class="contact-icon">📞</span>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+91 9508143590</span>
+          </a>
+          <a href="https://github.com/sheikhjishan" target="_blank" rel="noopener" class="contact-card">
+            <span class="contact-icon">🐙</span>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/sheikhjishan</span>
+          </a>
+          <a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank" rel="noopener" class="contact-card">
+            <span class="contact-icon">🔗</span>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/your-linkedin-username</span>
+          </a>
+        </div>
+        <p class="contact-cta">I'm open to internship and entry-level opportunities. Let's connect!</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2025 Jishan Akhatar · Built with HTML, CSS & JavaScript</p>
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
